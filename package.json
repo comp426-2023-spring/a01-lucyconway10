@@ -1,0 +1,31 @@
+{
+  "name": "lucyconway10-webserver",
+  "version": "1.0.0",
+  "description": "This package contains a very simple web server that takes one argument for port and then serves any files insdie the public directory.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node server.js --port=5555"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2023-spring/a01-lucyconway10.git"
+  },
+  "keywords": [
+    "web",
+    "server",
+    "port",
+    "node",
+    "fs",
+    "args",
+    "http"
+  ],
+  "author": "lucyconway10",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2023-spring/a01-lucyconway10/issues"
+  },
+  "homepage": "https://github.com/comp426-2023-spring/a01-lucyconway10#readme",
+  "dependencies": {
+    "minimist": "^1.2.7"
+  }
+}
